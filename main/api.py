@@ -15,7 +15,7 @@ def about():
     return render_template('about.html')
 
 @app.route('/about', methods=['GET'])
-def about():
+def usage():
     return render_template('usage.html')
 # @app.route('/api/v1/resources/books/all', methods=['GET'])
 # def api_all():
