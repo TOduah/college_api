@@ -1,5 +1,7 @@
 from flask import Flask, render_template 
 from flask import request, jsonify 
+import json
+
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -17,9 +19,19 @@ def about():
 @app.route('/usage', methods=['GET'])
 def usage():
     return render_template('usage.html')
-# @app.route('/api/v1/resources/books/all', methods=['GET'])
-# def api_all():
-#     return jsonify(books)
+
+# endpoint for all college data    
+@app.route('/api/v1/colleges/all', methods=['GET'])
+def api_all():
+    # f = open('collegesdata.json',)
+
+    # data = json.load(f)
+    
+    # for i in data:
+    #     print(i)
+    # f.close()
+
+     
 
 # @app.route('/api/v1/resources/book/<string:name>', methods=['GET'])
 # def home(name):
