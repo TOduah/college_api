@@ -29,3 +29,12 @@ makeRequest();
         request.open('GET', url);
         request.send();
     }
+
+var input = document.getElementById("url-input");
+input.addEventListener("keyup", function(event) {
+   if (event.keyCode === 13) 
+   {
+        event.preventDefault();
+        document.getElementById("my-btn").click();
+   }
+});

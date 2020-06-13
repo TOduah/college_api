@@ -1,5 +1,6 @@
 from flask import Flask, render_template 
 from flask import request, jsonify 
+from pprint import pprint
 import json
 
 
@@ -23,13 +24,10 @@ def usage():
 # endpoint for all college data    
 @app.route('/api/v1/colleges/all', methods=['GET'])
 def api_all():
-    # f = open('collegesdata.json',)
+    with open('data/collegesdata.json', 'r') as f:
+        data = json.load(f)
 
-    # data = json.load(f)
-    
-    # for i in data:
-    #     print(i)
-    # f.close()
+    return jsonify(data)
 
      
 
