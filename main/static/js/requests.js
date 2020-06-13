@@ -1,27 +1,27 @@
 makeRequest();
     function updateRequestUrl(url) {
-        document.getElementById('request-url-input').value = url;
+        document.getElementById('url-input').value = url; //update search box url with example when clicked
         makeRequest();
     }
     function makeRequest() {
-        var url = document.getElementById('request-url-input').value;
+        var url = document.getElementById('url-input').value;
         var request = new XMLHttpRequest();
         request.onreadystatechange = function() {
             if (request.readyState == XMLHttpRequest.DONE) 
             {
                 if (request.status == 200) 
                 {
-                    var jsonData = JSON.parse(request.responseText);
-                    document.getElementById('response-output').innerHTML = JSON.stringify(jsonData, null, '\t');
+                    var jsonData = JSON.parse(request.responseText);  //request.responseText returns the server response as a string of text (JSON in this case)
+                    document.getElementById('url-output').innerHTML = JSON.stringify(jsonData, null, '\t'); 
                 } 
                 else if (request.status == 404) 
                 {
-                    document.getElementById('response-output').innerHTML =
-                        'Could not find any resource that matches the request, try again!';
+                    document.getElementById('url-output').innerHTML =
+                        'Could not find any resource that matches the request. Try again!';
                 } 
                 else 
                 {
-                    document.getElementById('response-output').innerHTML =
+                    document.getElementById('url-output').innerHTML =
                         'Somethin went wrong. Try again, or contact tjlite81@gmail.com';
                 }
             }
