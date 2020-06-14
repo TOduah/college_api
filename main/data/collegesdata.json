@@ -1,5 +1,5 @@
 [
-    {"college-name": "drexel-university", 
+    {"college-name": ["drexel-university", "drexel"], 
         "type": "private",
         "city": "philadelphia",
         "state": "pennsylvania (PA)",
