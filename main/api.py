@@ -53,10 +53,18 @@ def get_calendar(calendar):
 
     return jsonify(c_list)
 
-     
+# endpoit for colleges of a specific campus-setting
+@app.route('/api/v1/colleges/setting/<string:setting>', methods=['GET'])
+def get_setting(setting):
+    with open('data/collegesdata.json', 'r') as f:
+        data = json.load(f)
+    s_list = []
 
-# @app.route('/api/v1/resources/book/<string:name>', methods=['GET'])
-# def home(name):
+    for s in data:
+        if s["campus-setting"] == setting:
+            s_list.append(s)
+
+    return jsonify(s_list)
 
 
 
