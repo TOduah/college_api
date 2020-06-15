@@ -2,21 +2,21 @@
     {"college-name": ["drexel-university", "drexel"], 
         "type": "private",
         "city": "philadelphia",
-        "state": "pennsylvania (PA)",
+        "state": "PA",
         "academic-calendar": "quarter",
         "campus-setting": "urban"},
 
      {"college-name": "widener-university", 
         "type": "private",
         "city": "chester",
-        "state": "pennsylvania (PA)",
+        "state": "PA",
         "academic-calendar": "semester",
         "campus-setting": "suburban"},
 
     {"college-name": "university-of-pennsylvania", 
         "type": "private",
         "city": "philadelphia",
-        "state": "pennsylvania (PA)",
+        "state": "PA",
         "academic-calendar": "semester",
         "campus-setting": "urban"}
 ]

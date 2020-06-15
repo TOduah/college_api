@@ -36,9 +36,48 @@ def get_college(college_name):
         data = json.load(f)
 
     for college in data:
-        if college_name in college["college-name"]:
+        if college_name.lower() in college["college-name"]:
             return jsonify(college)
     return None
+
+# endpoint for colleges of a specific type
+@app.route('/api/v1/colleges/type/<string:college_type>', methods=['GET'])
+def get_type(college_type):
+    with open('data/collegesdata.json', 'r') as f:
+        data = json.load(f)
+    t_list = []
+
+    for t in data:
+        if t["type"] == college_type.lower():
+            t_list.append(t)
+
+    return jsonify(t_list)
+
+# endpoint for colleges in a specific city
+@app.route('/api/v1/colleges/city/<string:city>', methods=['GET'])
+def get_city(city):
+    with open('data/collegesdata.json', 'r') as f:
+        data = json.load(f)
+    city_list = []
+
+    for ct in data:
+        if ct["city"] == city.lower():
+            city_list.append(ct)
+
+    return jsonify(city_list)
+
+# endpoint for colleges in a specific state
+@app.route('/api/v1/colleges/state/<string:state>', methods=['GET'])
+def get_state(state):
+    with open('data/collegesdata.json', 'r') as f:
+        data = json.load(f)
+    state_list = []
+
+    for st in data:
+        if st["state"] == state.upper():
+            state_list.append(st)
+
+    return jsonify(state_list)
 
 # endpoint for colleges of a specific academic-calendar
 @app.route('/api/v1/colleges/calendar/<string:calendar>', methods=['GET'])
