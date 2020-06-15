@@ -6,17 +6,31 @@
         "academic-calendar": "quarter",
         "campus-setting": "urban"},
 
-     {"college-name": "widener-university", 
+     {"college-name": ["widener-university", "widener"], 
         "type": "private",
         "city": "chester",
         "state": "PA",
         "academic-calendar": "semester",
         "campus-setting": "suburban"},
 
-    {"college-name": "university-of-pennsylvania", 
+    {"college-name": ["university-of-pennsylvania", "upenn", "penn"],
         "type": "private",
         "city": "philadelphia",
         "state": "PA",
         "academic-calendar": "semester",
-        "campus-setting": "urban"}
+        "campus-setting": "urban"},
+
+    {"college-name": ["carnegie-mellon-university", "cmu"],
+        "type": "private",
+        "city": "pittsburgh",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["villanova-university", "villanova"],
+        "type": "private",
+        "city": "villanova",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"}
 ]
