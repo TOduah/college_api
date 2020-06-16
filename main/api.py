@@ -1,11 +1,13 @@
-from flask import Flask, render_template 
-from flask import request, jsonify 
+from flask import Flask, render_template, request, jsonify 
+from flask_cors import CORS # for cross origin resource sharing
 from pprint import pprint
 import json
 
 
 app = Flask(__name__)
+CORS(app)
 app.config["DEBUG"] = True
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 
