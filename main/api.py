@@ -109,6 +109,5 @@ def get_setting(setting):
 
 
 
-app.run()
 
 
