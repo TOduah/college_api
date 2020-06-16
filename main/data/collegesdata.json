@@ -32,5 +32,26 @@
         "city": "villanova",
         "state": "PA",
         "academic-calendar": "semester",
-        "campus-setting": "suburban"}
+        "campus-setting": "suburban"},
+
+    {"college-name": ["lehigh-university", "lehigh"],
+        "type": "private",
+        "city": "bethlehem",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "city"},
+
+    {"college-name": ["pennsylvania-state-university", "penn-state"],
+        "type": "public",
+        "city": "university-park",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "city"},
+
+    {"college-name": ["university-of-pittsburgh", "pitt"],
+        "type": "public",
+        "city": "pittsburgh",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"}
 ]
