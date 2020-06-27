@@ -44,6 +44,65 @@
           </div>
 
           <hr>
+
+        <h4 class="header col s12 dark">Requests</h4>
+        <div class="col s5 m10">
+          <p>Root HTTP Request: <code
+              style="background-color: lightblue">https://www.collegesapi/herokuapp.com/api/v1</code></p>
+        </div>
+        <br>
+        <h5 class="header col s12 light">Colleges</h5>
+        <div class="col s5 m10">
+          <div class="col s5 m10" style="background-color: lightblue"> GET /colleges/all</div>
+
+          <p style="  font-style: italic;">Returns all colleges.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>college-name</td>
+                <td>string</td>
+                <td>Name of college</td>
+              </tr>
+              <tr>
+                <td>type</td>
+                <td>string</td>
+                <td>Type of college (private, public, ...)</td>
+              </tr>
+              <tr>
+                <td>city</td>
+                <td>string</td>
+                <td>Location of college (city)</td>
+              </tr>
+              <tr>
+                <td>state</td>
+                <td>string</td>
+                <td>Location of college (state)</td>
+              </tr>
+              <tr>
+                <td>academic-calendar</td>
+                <td>string</td>
+                <td>Term system run by college</td>
+              </tr>
+              <tr>
+                <td>campus-setting</td>
+                <td>string</td>
+                <td>Nature of college surroundings</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <h5 class="header col s12 light">Example Query</h5>
+          <div class="col s5 m10" style="background-color: lightblue"><code><a href="https://collegesapi.herokuapp.com/api/v1/colleges/all" 
+          target="_blank" style="color: black">https://collegesapi.herokuapp.com/api/v1/colleges/all</a></code></div>
+        </div>
         </div>
       </div>
     </div>
