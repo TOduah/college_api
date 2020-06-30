@@ -19,9 +19,9 @@ def index():
 def about():
     return render_template('about.html')
 
-@app.route('/usage', methods=['GET'])
-def usage():
-    return render_template('usage.html')
+@app.route('/doc', methods=['GET'])
+def doc():
+    return render_template('doc.html')
 
 # endpoint for all college data    
 @app.route('/api/v1/colleges/all', methods=['GET'])
@@ -108,4 +108,4 @@ def get_setting(setting):
     return jsonify(s_list)
 
 
-
+app.run()
