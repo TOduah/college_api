@@ -107,10 +107,52 @@
         <br>
 
         <h6 class="header col s12 light">Getting a specific college</h6>
-        <p>
-          You can access specific colleges by following its endpoint:</p>
+        <p>You can access specific colleges by following its endpoint:</p>
         <div class="col s5 m10" style="background-color: lightblue"><code>GET /colleges/{college-name}</code></div>
+        
+        <br>
 
+        <h6 class="header col s12 light">Filtering Colleges</h5>
+          <p>You can get collges that have specific properties by these parameter inputs:</p>
+        <div class="col s5 m10">
+          <div class="col s5 m10" style="background-color: lightblue"><code>GET /colleges/parameter/{value}</code></div>
+          <table>
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>type</td>
+                <td>string</td>
+                <td>Colleges with the specified type are returned</td>
+              </tr>
+              <tr>
+                <td>city</td>
+                <td>string</td>
+                <td>Colleges with the specified city are returned</td>
+              </tr>
+              <tr>
+                <td>state</td>
+                <td>string</td>
+                <td>Colleges with the specified state are returned</td>
+              </tr>
+              <tr>
+                <td>calendar</td>
+                <td>string</td>
+                <td>Colleges with the specified calendar are returned</td>
+              </tr>
+              <tr>
+                <td>setting</td>
+                <td>string</td>
+                <td>Colleges with the specified setting are returned</td>
+              </tr>
+            </tbody>
+          </table>
 
         </div>
       </div>
