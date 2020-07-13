@@ -67,5 +67,26 @@
         "city": "pittsburgh",
         "state": "PA",
         "academic-calendar": "semester",
-        "campus-setting": "urban"}
+        "campus-setting": "urban"},
+
+    {"college-name": ["thomas-jefferson-university", "tju"],
+        "type": "private",
+        "city": "philadelphia",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["chatham-university", "chatham"],
+        "type": "private",
+        "city": "pittsburgh",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["misericordia-university", "misericordia"],
+        "type": "private",
+        "city": "dallas",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"}
 ]
