@@ -22,3 +22,4 @@
 2. Interacting with the DOM using JavaScript
 3. Implementing jQuery in HTML page
 4. Writing a RESTful API and designating endpoints
+5. Writing and parsing JSON files

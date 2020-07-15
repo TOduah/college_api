@@ -88,5 +88,55 @@
         "city": "dallas",
         "state": "PA",
         "academic-calendar": "semester",
-        "campus-setting": "suburban"}
+        "campus-setting": "suburban"},
+
+    {"college-name": ["harvard-university", "harvard"],
+        "type": "private",
+        "city": "cambridge",
+        "state": "MA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["princeton-university", "princeton"],
+        "type": "private",
+        "city": "princeton",
+        "state": "NJ",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+    
+    {"college-name": ["dartmouth-college", "dartmouth"],
+        "type": "private",
+        "city": "hanover",
+        "state": "NH",
+        "academic-calendar": "quarter",
+        "campus-setting": "rural"},
+
+    {"college-name": ["columbia-university", "columbia"],
+        "type": "private",
+        "city": "new-york",
+        "state": "NY",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["duke-university", "duke"],
+        "type": "private",
+        "city": "durham",
+        "state": "NC",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["brown-university", "brown"],
+        "type": "private",
+        "city": "providence",
+        "state": "RI",
+        "academic-calendar": "semester",
+        "campus-setting": "city"},
+    
+    {"college-name": ["cornell-university", "cornell"],
+        "type": "private",
+        "city": "ithaca",
+        "state": "NY",
+        "academic-calendar": "semester",
+        "campus-setting": "rural"}
+    
 ]
