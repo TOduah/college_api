@@ -41,7 +41,7 @@
         "academic-calendar": "semester",
         "campus-setting": "city"},
 
-    {"college-name": ["pennsylvania-state-university", "penn-state"],
+    {"college-name": ["pennsylvania-state-university", "penn-state", "psu"],
         "type": "public",
         "city": "university-park",
         "state": "PA",
@@ -137,6 +137,20 @@
         "city": "ithaca",
         "state": "NY",
         "academic-calendar": "semester",
-        "campus-setting": "rural"}
+        "campus-setting": "rural"},
+
+    {"college-name": ["massachusetts-institute-of-technology", "mit"],
+        "type": "private",
+        "city": "cambridge",
+        "state": "MA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["alabama-state-university", "asu"],
+        "type": "public",
+        "city": "montgomery",
+        "state": "AL",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"}
     
 ]
