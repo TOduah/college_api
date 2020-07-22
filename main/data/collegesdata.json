@@ -151,6 +151,20 @@
         "city": "montgomery",
         "state": "AL",
         "academic-calendar": "semester",
-        "campus-setting": "urban"}
-    
+        "campus-setting": "urban"},
+
+    {"college-name": ["georgetown-university", "georgetown"],
+        "type": "private",
+        "city": "washington-DC",
+        "state": "MD",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["university-of-rochester"],
+        "type": "private",
+        "city": "rochester",
+        "state": "NY",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"}
+
 ]
