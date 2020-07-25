@@ -165,6 +165,27 @@
         "city": "rochester",
         "state": "NY",
         "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["stanford-university", "stanford"],
+        "type": "private",
+        "city": "stanford",
+        "state": "CA",
+        "academic-calendar": "quarter",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["new-york-university", "nyu"],
+        "type": "private",
+        "city": "new-york",
+        "state": "NY",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["california-institute-of-technology", "caltech"],
+        "type": "private",
+        "city": "pasadena",
+        "state": "CA",
+        "academic-calendar": "quarter",
         "campus-setting": "suburban"}
 
 ]
