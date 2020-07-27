@@ -186,6 +186,28 @@
         "city": "pasadena",
         "state": "CA",
         "academic-calendar": "quarter",
-        "campus-setting": "suburban"}
+        "campus-setting": "suburban"},
+
+    {"college-name": ["johns-hopkins-university"],
+        "type": "private",
+        "city": "baltimore", 
+        "state": "MD",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["university-of-chicago", "uchicago"],
+        "type": "private",
+        "city": "chicago",
+        "state": "IL",
+        "academic-calendar": "quarter",
+        "campus-setting": "urban"},
+
+    {"college-name": ["tufts-university", "tufts"],
+        "type": "private",
+        "city": "medford",
+        "state": "MA",
+        "academic-calendar": "semester",
+        "campus-setting": "duburban"}
+
 
 ]

@@ -108,4 +108,4 @@ def get_setting(setting):
     return jsonify(s_list)
 
 #to run locally
-#app.run()
+app.run()
