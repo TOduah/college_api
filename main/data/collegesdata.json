@@ -207,7 +207,28 @@
         "city": "medford",
         "state": "MA",
         "academic-calendar": "semester",
-        "campus-setting": "duburban"}
+        "campus-setting": "suburban"},
+
+    {"college-name": ["haverford-college", "haverford"],
+        "type": "private",
+        "city": "haverford",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["vanderbilt-university", "vanderbilt"],
+        "type": "private",
+        "city": "nashville",
+        "state": "TN",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"},
+
+    {"college-name": ["georgia-institute-of-technology", "georgia-tech"],
+        "type": "public",
+        "city": "atlanta",
+        "state": "GA",
+        "academic-calendar": "semester",
+        "campus-setting": "urban"}
 
 
 ]
