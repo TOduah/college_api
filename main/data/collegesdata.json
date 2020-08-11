@@ -228,7 +228,20 @@
         "city": "atlanta",
         "state": "GA",
         "academic-calendar": "semester",
-        "campus-setting": "urban"}
+        "campus-setting": "urban"},
 
+    {"college-name": ["wilson-college", "wilson"],
+        "type": "private",
+        "city": "chambersburg",
+        "state": "PA",
+        "academic-calendar": "semester",
+        "campus-setting": "rural"},
+
+    {"college-name": ["pomona-college", "pomona"],
+        "type": "private",
+        "city": "claremont",
+        "state": "CA",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"}
 
 ]
