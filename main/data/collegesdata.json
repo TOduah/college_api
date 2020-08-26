@@ -242,6 +242,27 @@
         "city": "claremont",
         "state": "CA",
         "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["university-at-buffalo-SUNY", "ubuffalo"],
+        "type": "public",
+        "city": "buffalo",
+        "state": "NY",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["binghamton-university-SUNY", "binghamton"],
+        "type": "public",
+        "city": "binghamton",
+        "state": "NY",
+        "academic-calendar": "semester",
+        "campus-setting": "suburban"},
+
+    {"college-name": ["brandeis-university", "brandeis"],
+        "type": "private",
+        "city": "waltham",
+        "state": "MA",
+        "academic-calendar": "semester",
         "campus-setting": "suburban"}
 
 ]
